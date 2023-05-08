@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abyssinica SIL', serif;
+}
+.body{
+    overflow-x: hidden;
+}
+.main{
+    height: fit-content;
+}
+a{
+    text-decoration: none !important;
+    display: block;
+    color: rgba(255, 255, 255, 0.492) !important;
+}
+.navicon:hover{
+    color: #3880ff !important;
+}
+ul, li{
+    list-style: none;
+}
+.tab_bar{
+    background-color: black;
+}
+.sidebar{
+    background-color: black !important;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: end !important;
+}
+.mainbar{
+    background-color:#eeeeee;
+}
+.side_bar_center{
+    padding-left: 20px;
+}
+.mr_warehouse{
+    color:#3880ff !important;
+}
+.search{
+    background-color: rgba(128, 128, 128, 0.177) !important;
+}
+.first_card{
+    box-shadow: 0 4px -6px 0 rgba(128, 128, 128, 0.173);
+}
+.warehouse_stocks{
+    color: grey;
+}
+.small_blue{
+    color: grey;
+}
